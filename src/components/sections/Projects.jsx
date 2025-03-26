@@ -15,7 +15,7 @@ export const Projects = () => {
       name: "PYcat",
       description:
         "A Python-based Netcat alternative for remote command execution, file transfer, and interactive shell access over TCP.",
-      technologies: ["Python"],
+      technologies: ["Python","Socket"],
       website: null,
       github: "https://github.com/BigyanKalakheti/PYcat.git",
     },
@@ -26,6 +26,14 @@ export const Projects = () => {
       technologies: ["MongoDB", "Node.js", "React.js", "Express.js"],
       website: null, // No website for this project
       github: "https://github.com/BigyanKalakheti/Bus-Booking.git",
+    },
+    {
+      name: "Steganogaphy",
+      description:
+        "A steganography tool for hiding and extracting messages in images and audio files via CLI or GUI.",
+      technologies: ["Python","Tkinter"],
+      website: null, // No website for this project
+      github: "https://github.com/BigyanKalakheti/Python-Steganography.git",
     },
   ];
 
